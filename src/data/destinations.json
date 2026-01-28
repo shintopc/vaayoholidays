@@ -1,0 +1,62 @@
+[
+    {
+        "id": "dest_1",
+        "name": "Maldives",
+        "slug": "maldives",
+        "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=2670&auto=format&fit=crop",
+        "description": "A tropical paradise of pristine beaches and turquoise waters.",
+        "highlights": [
+            "Overwater Villas",
+            "Snorkeling",
+            "Luxury Spas"
+        ]
+    },
+    {
+        "id": "dest_2",
+        "name": "Bali",
+        "slug": "bali",
+        "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=2638&auto=format&fit=crop",
+        "description": "The Island of Gods, offering lush jungles and vibrant culture.",
+        "highlights": [
+            "Ubud Jungle",
+            "Temples",
+            "Beach Clubs"
+        ]
+    },
+    {
+        "id": "dest_3",
+        "name": "Switzerland",
+        "slug": "switzerland",
+        "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?q=80&w=2670&auto=format&fit=crop",
+        "description": "Breathtaking Alps, pristine lakes, and charming villages.",
+        "highlights": [
+            "The Alps",
+            "Lake Geneva",
+            "Scenic Trains"
+        ]
+    },
+    {
+        "id": "dest_4",
+        "name": "Dubai",
+        "slug": "dubai",
+        "image": "https://images.unsplash.com/photo-1512453979798-5ea90b7cadc9?q=80&w=2574&auto=format&fit=crop",
+        "description": "A city of superlatives, from the tallest tower to luxury shopping.",
+        "highlights": [
+            "Burj Khalifa",
+            "Desert Safari",
+            "Palm Jumeirah"
+        ]
+    },
+    {
+        "id": "dest_5",
+        "name": "Kerala",
+        "slug": "kerala",
+        "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9947?q=80&w=2670&auto=format&fit=crop",
+        "description": "God's Own Country, famous for backwaters and ayurveda.",
+        "highlights": [
+            "Houseboats",
+            "Munnar Tea Gardens",
+            "Ayurveda"
+        ]
+    }
+]

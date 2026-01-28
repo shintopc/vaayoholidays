@@ -1,0 +1,197 @@
+[
+    {
+        "id": "pkg_1",
+        "title": "Maldives Luxury Escape",
+        "slug": "maldives-luxury-escape",
+        "destinationId": "dest_1",
+        "duration": "5 Days / 4 Nights",
+        "price": 2500,
+        "currency": "USD",
+        "images": [
+            "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?q=80&w=2574&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?q=80&w=2670&auto=format&fit=crop"
+        ],
+        "overview": "Experience the ultimate luxury in a private overwater villa with direct access to the ocean.",
+        "inclusions": [
+            "Accommodation",
+            "All Meals",
+            "Speedboat Transfer",
+            "Spa Treatment"
+        ],
+        "exclusions": [
+            "International Flights",
+            "Personal Expenses"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival",
+                "description": "Arrive at Male airport and transfer to your resort via speedboat.",
+                "activityIcon": "transfer"
+            },
+            {
+                "day": 2,
+                "title": "Leisure Day",
+                "description": "Enjoy the pristine beach and water sports.",
+                "activityIcon": "sightseeing"
+            },
+            {
+                "day": 3,
+                "title": "Sunset Cruise",
+                "description": "Evening sunset cruise with champagne.",
+                "activityIcon": "sightseeing"
+            },
+            {
+                "day": 4,
+                "title": "Spa Day",
+                "description": "Relax with a signature spa treatment.",
+                "activityIcon": "hotel"
+            },
+            {
+                "day": 5,
+                "title": "Departure",
+                "description": "Transfer back to the airport.",
+                "activityIcon": "flight"
+            }
+        ],
+        "isFeatured": true,
+        "rating": 4.9,
+        "reviewsCount": 120
+    },
+    {
+        "id": "pkg_2",
+        "title": "Swiss Alpine Wonder",
+        "slug": "swiss-alpine-wonder",
+        "destinationId": "dest_3",
+        "duration": "7 Days / 6 Nights",
+        "price": 3200,
+        "currency": "USD",
+        "images": [
+            "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?q=80&w=2670&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1527668752968-14dc70a27c73?q=80&w=2574&auto=format&fit=crop"
+        ],
+        "overview": "Discover the majestic Alps, ride the Glacier Express, and explore Lucerne.",
+        "inclusions": [
+            "Hotels",
+            "Swiss Travel Pass",
+            "Breakfasts",
+            "Excursions"
+        ],
+        "exclusions": [
+            "International Flights",
+            "Lunch & Dinner"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Zurich Arrival",
+                "description": "Arrive in Zurich and transfer to Lucerne.",
+                "activityIcon": "transfer"
+            },
+            {
+                "day": 2,
+                "title": "Mount Titlis",
+                "description": "Excursion to Mount Titlis with eternal snow.",
+                "activityIcon": "sightseeing"
+            },
+            {
+                "day": 3,
+                "title": "Interlaken",
+                "description": "Train to Interlaken via scenic route.",
+                "activityIcon": "transfer"
+            },
+            {
+                "day": 4,
+                "title": "Jungfraujoch",
+                "description": "Top of Europe excursion.",
+                "activityIcon": "sightseeing"
+            },
+            {
+                "day": 5,
+                "title": "Zermatt",
+                "description": "Travel to Zermatt, car-free village.",
+                "activityIcon": "transfer"
+            },
+            {
+                "day": 6,
+                "title": "Gornergrat",
+                "description": "View of the Matterhorn.",
+                "activityIcon": "sightseeing"
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "description": "Train to airport.",
+                "activityIcon": "flight"
+            }
+        ],
+        "isFeatured": true,
+        "rating": 4.8,
+        "reviewsCount": 85
+    },
+    {
+        "id": "pkg_3",
+        "title": "Bali Cultural Retreat",
+        "slug": "bali-cultural-retreat",
+        "destinationId": "dest_2",
+        "duration": "6 Days / 5 Nights",
+        "price": 1200,
+        "currency": "USD",
+        "images": [
+            "https://images.unsplash.com/photo-1555400038-63f5ba517a47?q=80&w=2670&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=2638&auto=format&fit=crop"
+        ],
+        "overview": "Immerse in the spiritual and natural beauty of Bali.",
+        "inclusions": [
+            "Private Villa",
+            "Transfers",
+            "Tours",
+            "Breakfast"
+        ],
+        "exclusions": [
+            "Flights",
+            "Visa"
+        ],
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Ubud",
+                "description": "Airport pickup and transfer to Ubud private villa.",
+                "activityIcon": "transfer"
+            },
+            {
+                "day": 2,
+                "title": "Ubud Tour",
+                "description": "Monkey Forest and Rice Terrace Swing.",
+                "activityIcon": "sightseeing"
+            },
+            {
+                "day": 3,
+                "title": "Kintamani Volcano",
+                "description": "Mount Batur view and coffee plantation.",
+                "activityIcon": "sightseeing"
+            },
+            {
+                "day": 4,
+                "title": "Seminyak Transfer",
+                "description": "Transfer to Seminyak beach area.",
+                "activityIcon": "transfer"
+            },
+            {
+                "day": 5,
+                "title": "Uluwatu Temple",
+                "description": "Sunset Kecak Dance performance.",
+                "activityIcon": "sightseeing"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Check out and airport drop.",
+                "activityIcon": "flight"
+            }
+        ],
+        "isFeatured": true,
+        "rating": 4.7,
+        "reviewsCount": 200
+    }
+]
