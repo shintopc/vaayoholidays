@@ -59,9 +59,7 @@ export function DestinationsGrid() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: i * 0.1 }}
-                        className={cn(
-                            "relative rounded-2xl overflow-hidden group h-full min-h-[200px]",
-                            i === 0 || i === 3 ? "md:col-span-2" : "md:col-span-1" // make some wider
+                            "relative rounded-2xl overflow-hidden group h-full min-h-[200px] md:col-span-1"
                         )}
                     >
                         <Link href={`/destinations/${dest.slug}`} className="block h-full relative w-full">
@@ -84,6 +82,6 @@ export function DestinationsGrid() {
             <Link href="/destinations" className="md:hidden block text-center mt-8 text-navy-900 font-medium">
                 Explore All Destinations
             </Link>
-        </Section>
+        </Section >
     );
 }
