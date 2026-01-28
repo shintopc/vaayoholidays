@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Section } from "@/components/ui/Section";
 import { Destination } from "@/types";
@@ -34,14 +35,16 @@ export function DestinationsGrid() {
                     viewport={{ once: true }}
                     className="md:col-span-2 md:row-span-2 relative rounded-2xl overflow-hidden group h-full"
                 >
-                    <Link href={`/destinations/${featured.slug}`} className="block h-full">
-                        <img
+                    <Link href={`/destinations/${featured.slug}`} className="block h-full relative w-full">
+                        <Image
                             src={featured.image}
                             alt={featured.name}
-                            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                            fill
+                            className="object-cover transition-transform duration-700 group-hover:scale-110"
+                            sizes="(max-width: 768px) 100vw, 50vw"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-navy-900/80 via-transparent to-transparent" />
-                        <div className="absolute bottom-0 left-0 p-8">
+                        <div className="absolute bottom-0 left-0 p-8 z-10">
                             <h3 className="text-3xl font-serif font-bold text-white mb-2">{featured.name}</h3>
                             <p className="text-white/80 line-clamp-1">{featured.description}</p>
                         </div>
@@ -61,14 +64,16 @@ export function DestinationsGrid() {
                             i === 0 || i === 3 ? "md:col-span-2" : "md:col-span-1" // make some wider
                         )}
                     >
-                        <Link href={`/destinations/${dest.slug}`} className="block h-full">
-                            <img
+                        <Link href={`/destinations/${dest.slug}`} className="block h-full relative w-full">
+                            <Image
                                 src={dest.image}
                                 alt={dest.name}
-                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                fill
+                                className="object-cover transition-transform duration-700 group-hover:scale-110"
+                                sizes="(max-width: 768px) 100vw, 33vw"
                             />
                             <div className="absolute inset-0 bg-navy-900/20 group-hover:bg-navy-900/40 transition-colors" />
-                            <div className="absolute bottom-4 left-4">
+                            <div className="absolute bottom-4 left-4 z-10">
                                 <h3 className="text-xl font-bold text-white">{dest.name}</h3>
                             </div>
                         </Link>
