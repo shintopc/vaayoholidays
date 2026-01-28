@@ -59,6 +59,7 @@ export function DestinationsGrid() {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: i * 0.1 }}
+                        className={cn(
                             "relative rounded-2xl overflow-hidden group h-full min-h-[200px] md:col-span-1"
                         )}
                     >
