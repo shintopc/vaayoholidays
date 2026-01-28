@@ -27,7 +27,7 @@ export function DestinationsGrid() {
                 </Link>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-[600px] md:h-[500px]">
+            <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-auto md:h-[500px]">
                 {/* Main Featured Destination */}
                 <motion.div
                     initial={{ opacity: 0, scale: 0.95 }}
