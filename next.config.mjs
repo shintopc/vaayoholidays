@@ -1,8 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
+    // output: 'export', // Commented out for Vercel deployment to enable Image Optimization
     images: {
-        unoptimized: true,
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'images.unsplash.com',
+            },
+        ],
+        // unoptimized: true, // Commented out to allow Vercel to optimize images
     },
 };
 
